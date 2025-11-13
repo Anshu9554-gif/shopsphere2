@@ -1,0 +1,70 @@
+body{
+    background-color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+}
+.logo{
+    font-size: 30px;
+}
+.heading{
+    display: flex;
+    padding:20px;
+    background-color: rgb(1, 10, 18);
+    margin-top: 20px;
+    justify-content: right;
+    gap: 10px;
+    a{
+        color: aliceblue;
+    }
+    input{
+        padding: 5px;
+        border-radius: 7px;
+        width: 500px;
+        
+    }
+    button{
+        padding: 5px;
+        border-radius: 7px;
+        width: 80px;
+
+    }
+    h3{
+        color: white;
+    }
+}
+.categories{
+    padding: 15px;
+    background-color: rgba(70, 79, 92, 0.779);
+    display: flex;
+    justify-content: right;
+    justify-content: space-around;
+    a{
+        color: white;
+    }
+    a{
+        justify-items: right;
+    }
+}
+
+   a{
+    color:black;
+    font-size: larger;
+    text-decoration: none;
+   }
+.section{
+    display: flex;
+}
+.box1{
+    padding: 20px;
+}
+.box2{
+    padding: 20px;
+}
+.box3{
+    padding: 20px;
+}
+.box4{
+    padding: 20px;
+}
+html{
+    scroll-behavior: smooth;
+}
